@@ -1,5 +1,5 @@
 export const SIZE = 0.25;
-export const GAP = SIZE*2;
+export const GAP = SIZE * 2;
 export const OFFSETS = [-1, 0, 1];
 
 export const V = [
@@ -29,10 +29,10 @@ export const E = [
 ];
 
 export const F = [
-  [0, 1, 2, 3],
-  [4, 5, 6, 7],
-  [0, 1, 5, 4],
-  [2, 3, 7, 6],
-  [0, 3, 7, 4],
-  [1, 2, 6, 5],
+  { indices: [0, 1, 2, 3], color: "red" },
+  { indices: [4, 5, 6, 7], color: "green" },
+  { indices: [0, 1, 5, 4], color: "blue" },
+  { indices: [2, 3, 7, 6], color: "yellow" },
+  { indices: [0, 3, 7, 4], color: "purple" },
+  { indices: [1, 2, 6, 5], color: "cyan" },
 ];
